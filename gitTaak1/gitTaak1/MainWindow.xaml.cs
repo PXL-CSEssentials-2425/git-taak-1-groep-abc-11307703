@@ -20,5 +20,37 @@ namespace gitTaak1
         {
             InitializeComponent();
         }
+
+        private void Image_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            Color color = Colors.Red;
+            string colorCode = $"#{color.R:X2}{color.G:X2}{color.B:X2}";
+
+            colorCodeTextBox.Text = colorCode;
+        }
+
+        private void Image_MouseLeftButtonDown_1(object sender, MouseButtonEventArgs e)
+        {
+            Color color = Colors.Yellow;
+            string colorCode = $"#{color.R:X2}{color.G:X2}{color.B:X2}";
+
+            colorCodeTextBox.Text = colorCode;
+        }
+
+        private void Image_MouseLeftButtonDown_2(object sender, MouseButtonEventArgs e)
+        {
+            Color color= Colors.Green;
+            string colorCode = $"#{color.R:X2}{color.G:X2}{color.B:X2}";
+
+            colorCodeTextBox.Text = colorCode;
+        }
+
+        private void Image_MouseLeftButtonDown_3(object sender, MouseButtonEventArgs e)
+        {
+            Color color = Colors.Blue;
+            string colorCode = $"#{color.R:X2}{color.G:X2}{color.B:X2}";
+
+            colorCodeTextBox.Text = colorCode;
+        }
     }
 }
