@@ -9,6 +9,7 @@
         Background="LightGray">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="84,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Width="134" IsEnabled="False" FontWeight="Bold"><Run Language="nl-nl" Text="Kleurenpsychologie"/></TextBlock>
+        <Image Source ="PXL.png" HorizontalAlignment="Left" Height="100" Margin="612,21,0,0" VerticalAlignment="Top" Width="148"/>
 
     </Grid>
 </Window>
