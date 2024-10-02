@@ -58,6 +58,16 @@ namespace gitTaak1
             colorCodeTextBox.Text = colorCode;
             colorInfoTextBox.Text = colorInfo;
         }
+      
 
+        private void Image_MouseEnter(object sender, MouseEventArgs e)
+        {
+            Taak1.Background = new SolidColorBrush(Colors.White);
+        }
+
+        private void Image_MouseLeave(object sender, MouseEventArgs e)
+        {
+            Taak1.Background = new SolidColorBrush(Colors.LightGray);
+        }
     }
 }

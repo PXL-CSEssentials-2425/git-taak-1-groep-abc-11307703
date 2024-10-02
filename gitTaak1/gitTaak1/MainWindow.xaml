@@ -6,10 +6,11 @@
         xmlns:local="clr-namespace:gitTaak1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800"
+        x:Name="Taak1"
         Background="LightGray">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="84,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Width="134" IsEnabled="False" FontWeight="Bold"><Run Language="nl-nl" Text="Kleurenpsychologie"/></TextBlock>
-        <Image Source ="PXL.png" HorizontalAlignment="Left" Height="100" Margin="612,21,0,0" VerticalAlignment="Top" Width="148"/>
+        <Image Source ="PXL.png" HorizontalAlignment="Left" Height="100" Margin="612,21,0,0" VerticalAlignment="Top" Width="148" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave"/>
         <Image Margin="66,96,611,253" Source="/Rood.png" Stretch="Fill" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
         <Image Margin="231,96,447,253" Source="/Geel.png" Stretch="Fill" MouseLeftButtonDown="Image_MouseLeftButtonDown_1"/>
         <Image Margin="66,204,611,144" Source="/Groen.png" Stretch="Fill" MouseLeftButtonDown="Image_MouseLeftButtonDown_2"/>
