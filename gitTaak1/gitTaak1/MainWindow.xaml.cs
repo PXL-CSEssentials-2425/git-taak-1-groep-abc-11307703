@@ -25,23 +25,27 @@ namespace gitTaak1
         {
             Color color = Colors.Red;
             string colorCode = $"#{color.R:X2}{color.G:X2}{color.B:X2}";
-
+            string colorInfo = "Rood is de kleur van warmte";
             colorCodeTextBox.Text = colorCode;
+            colorInfoTextBox.Text = colorInfo;
         }
 
         private void Image_MouseLeftButtonDown_1(object sender, MouseButtonEventArgs e)
         {
             Color color = Colors.Yellow;
             string colorCode = $"#{color.R:X2}{color.G:X2}{color.B:X2}";
-
+            string colorInfo = "Geel is de kleur van levenslust";
             colorCodeTextBox.Text = colorCode;
+            colorInfoTextBox.Text = colorInfo;
         }
 
         private void Image_MouseLeftButtonDown_2(object sender, MouseButtonEventArgs e)
         {
             Color color= Colors.Green;
             string colorCode = $"#{color.R:X2}{color.G:X2}{color.B:X2}";
+            string colorInfo = "Groen is de kleur van genezing";
 
+            colorInfoTextBox.Text = colorInfo;
             colorCodeTextBox.Text = colorCode;
         }
 
@@ -49,8 +53,11 @@ namespace gitTaak1
         {
             Color color = Colors.Blue;
             string colorCode = $"#{color.R:X2}{color.G:X2}{color.B:X2}";
+            string colorInfo = " Blauw is de kleur van intelligentie";
 
             colorCodeTextBox.Text = colorCode;
+            colorInfoTextBox.Text = colorInfo;
         }
+
     }
 }

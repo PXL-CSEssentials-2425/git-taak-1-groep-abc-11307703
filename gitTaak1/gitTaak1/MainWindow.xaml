@@ -15,7 +15,9 @@
         <Image Margin="66,204,611,144" Source="/Groen.png" Stretch="Fill" MouseLeftButtonDown="Image_MouseLeftButtonDown_2"/>
         <Image Margin="231,204,447,144" Source="/Blauw.png" Stretch="Fill" MouseLeftButtonDown="Image_MouseLeftButtonDown_3"/>
         <TextBox x:Name="colorCodeTextBox" HorizontalAlignment="Left" Margin="151,319,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="202" Height="22" IsEnabled="False"/>
-        <Label Content="Kleurcode:" HorizontalAlignment="Left" Margin="80,315,0,0" VerticalAlignment="Top" Width="95" FontWeight="Bold"/>
+        <Label Content="Kleurcode:" HorizontalAlignment="Left" Margin="80,315,0,0" VerticalAlignment="Top" Width="71" FontWeight="Bold"/>
+        <TextBox x:Name="colorInfoTextBox" HorizontalAlignment="Left" Margin="151,356,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="202" Height="22" IsEnabled="False"/>
+        <Label Content="Informatie:" HorizontalAlignment="Left" Margin="80,354,0,0" VerticalAlignment="Top" Width="71" FontWeight="Bold"/>
 
     </Grid>
 </Window>
